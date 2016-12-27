@@ -3,13 +3,13 @@
 Using this image:
 
 ```
-$ docker run --rm 18fgsa/micropurchase-data
+$ docker run --rm 18fgsa/micropurchase-skills
 ```
 
 To save the results to a file:
 
 ```
-$ docker run --rm 18fgsa/micropurchase-data > skills.json
+$ docker run --rm 18fgsa/micropurchase-skills > skills.json
 ```
 
 ## Building locally
@@ -17,7 +17,7 @@ $ docker run --rm 18fgsa/micropurchase-data > skills.json
 Clone this repo and `cd` into it:
 
 ```
-$ docker build -t micropurchase-data .
+$ docker build -t micropurchase-skills .
 ```
 
 ## Example output
